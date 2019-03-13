@@ -1,9 +1,35 @@
+<!DOCTYPE html>
+
 <html>
   <head>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>My blog</title>
+    <style> 
+      body {background-image: url("images/sky.jpg"); background-size: 100%;
+    }
+    </style>
+  </head>
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Kia ora Taiao! (Hello World!)</h1> 
+        <p> This is the beginning of my website home page.</p>
+        <p> It will eventually contain a list of links to all my blogs. </p>
+      </div>
+      <hr class="hr">
+      <div class="row">
+        <div class="col-md-4 link" style="height: 550px">
+          <h2>Link to blogs</h2>
+          <p><a href="blog/sprint1-technical.html">Sprint 1 Technical</a></p>
+          <p><a href="blog/blog1.html">Blog 1</a></p>
+          <p>Link 2</p>
+          <p>Link 3</p>
+        </div>
+        <div class="col-md-8 info" style="margin-top: 0px;">
+          <h2>Information</h2>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
