@@ -11,7 +11,7 @@ body {
     border-style: solid;
     border-width: 10px;
     border-top: none; 
-    color: rgb(145, 40, 21);
+    color: rgb(134, 55, 41);
 }
 
 .link {
@@ -25,5 +25,11 @@ body {
 }
 
 h2 {
-    color: yellowgreen;
+    color: rgb(156, 172, 126);
+}
+
+#blog {
+    font-weight: bolder;
+    color: black;
+    text-decoration: underline;
 }
