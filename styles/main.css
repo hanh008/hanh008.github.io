@@ -33,3 +33,15 @@ h2 {
     color: black;
     text-decoration: underline;
 }
+
+.wrap {
+    display: flex;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
