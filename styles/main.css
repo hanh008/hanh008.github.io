@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:rgb(35, 111, 141);
-    color: white;
+    color:white;
 }
 
 .info {
@@ -20,7 +20,7 @@ body {
     border-color: white
 }
 
-.title {;
+.title {
     color: Yellow;
     text-align: center;
 }
@@ -54,4 +54,9 @@ h2 {
 h3 {
     color: black;
     font-weight: bold;
+}
+
+.subtitle {
+    font-weight: bolder;
+    color: gold;
 }
